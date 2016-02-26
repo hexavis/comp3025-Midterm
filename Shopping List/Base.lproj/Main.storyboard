@@ -260,15 +260,6 @@
                                 <color key="textColor" red="0.53411321989528804" green="0.53411321989528804" blue="0.53411321989528804" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lhz-5O-UVv" userLabel="item05TF">
-                                <rect key="frame" x="10" y="409" width="394" height="30"/>
-                                <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="tpm-rR-RRE"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMm-5p-4Jc" userLabel="cancelButton">
                                 <rect key="frame" x="423" y="478" width="115" height="50"/>
                                 <color key="backgroundColor" red="0.7803921568627451" green="0.7803921568627451" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
@@ -283,6 +274,15 @@
                                     <action selector="cancelButtAct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pey-Js-Eko"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lhz-5O-UVv" userLabel="item05TF">
+                                <rect key="frame" x="10" y="409" width="394" height="30"/>
+                                <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="tpm-rR-RRE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.93388007198952883" green="0.93388007198952883" blue="0.93388007198952883" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -359,11 +359,17 @@
                     </view>
                     <connections>
                         <outlet property="cancelButt" destination="YMm-5p-4Jc" id="DVt-C9-Qzj"/>
+                        <outlet property="itemName01" destination="R7d-E5-5N3" id="Z7S-gP-vVc"/>
+                        <outlet property="itemName02" destination="yFe-0g-D0d" id="4RS-vx-xK3"/>
+                        <outlet property="itemName03" destination="Xrf-ZQ-3Cw" id="tDF-5w-6sS"/>
+                        <outlet property="itemName04" destination="5hW-SE-Spj" id="qx5-tm-wGc"/>
+                        <outlet property="itemName05" destination="Lhz-5O-UVv" id="Lot-BK-K2u"/>
                         <outlet property="itemNum01" destination="bqH-Qf-iO4" id="Dma-xn-HQY"/>
                         <outlet property="itemNum02" destination="kYM-cz-FHy" id="558-LS-MWk"/>
                         <outlet property="itemNum03" destination="Kfz-2L-qss" id="M8k-4h-nDs"/>
                         <outlet property="itemNum04" destination="T5c-U5-CdH" id="fFf-Qm-2dd"/>
                         <outlet property="itemNum05" destination="877-al-Rru" id="ELt-LG-5EC"/>
+                        <outlet property="listTitle" destination="SmC-1S-o6f" id="eQP-bM-6EG"/>
                         <outlet property="stepper01" destination="NN1-Vu-FJb" id="gWt-2y-gBm"/>
                         <outlet property="stepper02" destination="ipG-ld-vbd" id="nDS-D2-5HL"/>
                         <outlet property="stepper03" destination="g5a-8Y-TW1" id="2b0-JD-tgi"/>

@@ -53,10 +53,19 @@ class ViewController: UIViewController {
         itemNum05.text = "\(Int(stepper05.value))"
     }
     
+    //shopping list textfield outlets
+    @IBOutlet weak var listTitle: UITextField!
+    @IBOutlet weak var itemName01: UITextField!
+    @IBOutlet weak var itemName02: UITextField!
+    @IBOutlet weak var itemName03: UITextField!
+    @IBOutlet weak var itemName04: UITextField!
+    @IBOutlet weak var itemName05: UITextField!
+    
 
     //cancel button outlet and action
     @IBOutlet weak var cancelButt: UIButton!
     @IBAction func cancelButtAct(sender: AnyObject) {
+        //reset the shopping list quantities
         itemNum01.text = "0"
         stepper01.value = 0
         
@@ -70,9 +79,15 @@ class ViewController: UIViewController {
         stepper04.value = 0
         
         itemNum05.text = "0"
-        stepper05.value = 0     
+        stepper05.value = 0
         
-        
+        //reset the shopping list textfields
+        listTitle.text = "My Shopping List"
+        itemName01.text = ""
+        itemName02.text = ""
+        itemName03.text = ""
+        itemName04.text = ""
+        itemName05.text = ""
         
     }
     

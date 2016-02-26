@@ -93,16 +93,25 @@
                                 <rect key="frame" x="491" y="188" width="94" height="29"/>
                                 <color key="backgroundColor" red="0.7803921568627451" green="0.7803921568627451" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.45964837858220198" green="0.45964837858220198" blue="0.45964837858220198" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="ActionS01:" destination="BYZ-38-t0r" eventType="valueChanged" id="wxZ-6v-JdP"/>
+                                </connections>
                             </stepper>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ipG-ld-vbd" userLabel="step02">
-                                <rect key="frame" x="491" y="242" width="94" height="29"/>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ipG-ld-vbd" userLabel="step02">
+                                <rect key="frame" x="491" y="241" width="94" height="29"/>
                                 <color key="backgroundColor" red="0.78039215689999997" green="0.78039215689999997" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.45964837860000002" green="0.45964837860000002" blue="0.45964837860000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="actionS02:" destination="BYZ-38-t0r" eventType="valueChanged" id="88h-dg-kOV"/>
+                                </connections>
                             </stepper>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="g5a-8Y-TW1" userLabel="step03">
                                 <rect key="frame" x="491" y="294" width="94" height="29"/>
                                 <color key="backgroundColor" red="0.78039215689999997" green="0.78039215689999997" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.45964837860000002" green="0.45964837860000002" blue="0.45964837860000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="actionS03:" destination="BYZ-38-t0r" eventType="valueChanged" id="cuL-9U-U3A"/>
+                                </connections>
                             </stepper>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eEv-Lg-UmT">
                                 <rect key="frame" x="10" y="333" width="580" height="2"/>
@@ -116,6 +125,9 @@
                                 <rect key="frame" x="491" y="350" width="94" height="29"/>
                                 <color key="backgroundColor" red="0.78039215689999997" green="0.78039215689999997" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.45964837860000002" green="0.45964837860000002" blue="0.45964837860000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="actionS04:" destination="BYZ-38-t0r" eventType="valueChanged" id="Qbi-Fc-Di0"/>
+                                </connections>
                             </stepper>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h0M-bE-qvc">
                                 <rect key="frame" x="10" y="392" width="580" height="2"/>
@@ -136,10 +148,13 @@
                                     <color key="titleColor" red="0.095946455505278916" green="0.095946455505278916" blue="0.095946455505278916" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="AqH-oK-kwX" userLabel="step05">
-                                <rect key="frame" x="471" y="409" width="94" height="29"/>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="AqH-oK-kwX" userLabel="step05">
+                                <rect key="frame" x="480" y="409" width="94" height="29"/>
                                 <color key="backgroundColor" red="0.78039215689999997" green="0.78039215689999997" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.45964837860000002" green="0.45964837860000002" blue="0.45964837860000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="actionS05:" destination="BYZ-38-t0r" eventType="valueChanged" id="XxB-ng-Mqk"/>
+                                </connections>
                             </stepper>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lzb-Rh-wzT">
                                 <rect key="frame" x="10" y="92" width="580" height="2"/>
@@ -207,8 +222,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfz-2L-qss" userLabel="itemNum03">
-                                <rect key="frame" x="475" y="291" width="11" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfz-2L-qss" userLabel="itemNum03">
+                                <rect key="frame" x="475" y="289" width="11" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="1At-0J-GsO"/>
                                 </constraints>
@@ -245,17 +260,6 @@
                                 <color key="textColor" red="0.53411321989528804" green="0.53411321989528804" blue="0.53411321989528804" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMm-5p-4Jc" userLabel="cancelButton">
-                                <rect key="frame" x="420" y="478" width="115" height="50"/>
-                                <color key="backgroundColor" red="0.7803921568627451" green="0.7803921568627451" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="BQj-fy-P6b"/>
-                                    <constraint firstAttribute="width" constant="115" id="d56-9j-7eC"/>
-                                </constraints>
-                                <state key="normal" title="Cancel">
-                                    <color key="titleColor" red="0.22177837481146312" green="0.22177837481146312" blue="0.22177837481146312" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lhz-5O-UVv" userLabel="item05TF">
                                 <rect key="frame" x="10" y="409" width="394" height="30"/>
                                 <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
@@ -265,6 +269,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMm-5p-4Jc" userLabel="cancelButton">
+                                <rect key="frame" x="423" y="478" width="115" height="50"/>
+                                <color key="backgroundColor" red="0.7803921568627451" green="0.7803921568627451" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BQj-fy-P6b"/>
+                                    <constraint firstAttribute="width" constant="115" id="d56-9j-7eC"/>
+                                </constraints>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" red="0.22177837481146312" green="0.22177837481146312" blue="0.22177837481146312" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelButtAct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pey-Js-Eko"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93388007198952883" green="0.93388007198952883" blue="0.93388007198952883" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -339,6 +357,19 @@
                             <constraint firstItem="lzb-Rh-wzT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zer-XX-B8f"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cancelButt" destination="YMm-5p-4Jc" id="DVt-C9-Qzj"/>
+                        <outlet property="itemNum01" destination="bqH-Qf-iO4" id="Dma-xn-HQY"/>
+                        <outlet property="itemNum02" destination="kYM-cz-FHy" id="558-LS-MWk"/>
+                        <outlet property="itemNum03" destination="Kfz-2L-qss" id="M8k-4h-nDs"/>
+                        <outlet property="itemNum04" destination="T5c-U5-CdH" id="fFf-Qm-2dd"/>
+                        <outlet property="itemNum05" destination="877-al-Rru" id="ELt-LG-5EC"/>
+                        <outlet property="stepper01" destination="NN1-Vu-FJb" id="gWt-2y-gBm"/>
+                        <outlet property="stepper02" destination="ipG-ld-vbd" id="nDS-D2-5HL"/>
+                        <outlet property="stepper03" destination="g5a-8Y-TW1" id="2b0-JD-tgi"/>
+                        <outlet property="stepper04" destination="tee-au-avg" id="4MP-qm-m0S"/>
+                        <outlet property="stepper05" destination="AqH-oK-kwX" id="knV-VC-vO5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

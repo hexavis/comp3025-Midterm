@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Shopping List
 //
-//  Created by Jacqueline Richard on 2016-02-26.
+//  "Shopping List" Created by Jacqueline Richard on 2016-02-26.
 //  Copyright © 2016 100092753. All rights reserved.
 //  This is a simple shopping list type thing that lets you add some stuff 
 //  into a list and add or subtract quantity.
